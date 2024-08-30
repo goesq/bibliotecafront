@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titlebook {
+  margin-left: 100px;
+  font-size: 1.2em;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  flex: 1;
+  margin-right: 1rem; /* Espaço entre a barra de pesquisa e os botões de autenticação */
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  margin-right: -1px; /* Remove o espaço entre o input e o botão */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 0.5rem; /* Espaço entre os botões */
+  margin-left: 2rem; /* Aumenta a margem à esquerda para afastar do canto da tela */
+}
+
+.login,
+.signup {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.signup {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.highlight-title {
+  text-align: center;
+  font-family: "Lacquer", system-ui;
+  font-size: 3em;
+  color: rgb(235, 4, 4);
+  margin-top: 60px;
+}
+
+main {
+  padding: 1rem;
+}
+
+.book-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.book {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  overflow: hidden;
+  width: calc(25% - 1rem); /* Ajusta a largura dos artigos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  text-align: center; /* Centraliza o texto */
+}
+
+.book-cover {
+  display: flex; /* Usar flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente a imagem */
+  align-items: center; /* Centraliza verticalmente a imagem */
+  overflow: hidden; /* Garante que qualquer parte da imagem que ultrapasse o quadro seja escondida */
+  background-color: #eaeaea; /* Cor de fundo para casos onde a imagem não se carrega */
+  width: 120px; /* Ajusta a largura do quadro da imagem */
+  height: 180px; /* Ajusta a altura do quadro da imagem */
+  margin-bottom: 1rem; /* Espaço entre o quadro da imagem e os detalhes do livro */
+}
+
+.book-cover img {
+  width: auto; /* Ajusta a largura da imagem automaticamente */
+  height: 100%; /* Ajusta a altura da imagem para preencher o container */
+  object-fit: cover; /* Garante que a imagem cubra o container sem distorção */
+}
+
+.book-cover img {
+  width: auto; /* Ajusta a largura da imagem automaticamente */
+  height: 100%; /* Ajusta a altura da imagem para preencher o container */
+  object-fit: cover; /* Garante que a imagem cubra o container sem distorção */
+}
+
+
+.book-details {
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.book-author {
+  color: #555;
+}
+
+.reserve-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.reserve-btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #fff;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+
+/* Estilos existentes aqui */
+
+.titlelogin {
+  text-align: center;
+  font-family: "Lacquer", system-ui;
+  font-size: 3em;
+  color: red;
+  margin-top: 60px;
+}
+
+.main {
+  padding: 1rem;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 300px); /* Ajusta a altura para o centro verticalmente */
+}
+
+.login-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-title {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.login-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.titlebook2 {
+  margin-left: 841px;
+  font-size: 1.2em;
+
+}
