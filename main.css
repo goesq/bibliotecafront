@@ -29,8 +29,26 @@ header {
 }
 
 .titlebook {
-  margin-left: 100px;
-  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  margin-left: 63px;
+}
+
+.home-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* Mantém a cor padrão do texto */
+}
+
+.home-link i {
+  font-size: 2rem; /* Ajuste o tamanho do ícone conforme necessário */
+  margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.home-link h1 {
+  margin: 0; /* Remove a margem padrão do <h1> */
+  font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
 }
 
 .top {
@@ -111,7 +129,7 @@ header {
 
 /* Efeito de hover para o título "DESTAQUES DO MÊS" */
 .highlight-title:hover {
-  transform: rotate(-5deg) scale(1.15); /* Inclina o texto para a esquerda em 5 graus e aumenta o tamanho em 10% */
+  transform: rotate(-2deg) scale(1.15); /* Inclina o texto para a esquerda em 5 graus e aumenta o tamanho em 10% */
 }
 
 .highlight-title1 {
@@ -151,23 +169,23 @@ main {
   display: flex; /* Usar flexbox para centralizar o conteúdo */
   justify-content: center; /* Centraliza horizontalmente a imagem */
   align-items: center; /* Centraliza verticalmente a imagem */
-  overflow: hidden; /* Garante que qualquer parte da imagem que ultrapasse o quadro seja escondida */
-  background-color: #eaeaea; /* Cor de fundo para casos onde a imagem não se carrega */
-  width: 120px; /* Ajusta a largura do quadro da imagem */
-  height: 180px; /* Ajusta a altura do quadro da imagem */
-  margin-bottom: 1rem; /* Espaço entre o quadro da imagem e os detalhes do livro */
+  overflow: hidden;
+  background-color: #eaeaea;
+  width: 120px; 
+  height: 180px; 
+  margin-bottom: 1rem; 
+  }
+
+.book-cover img {
+  width: auto; 
+  height: 100%;
+  object-fit: cover; 
 }
 
 .book-cover img {
-  width: auto; /* Ajusta a largura da imagem automaticamente */
-  height: 100%; /* Ajusta a altura da imagem para preencher o container */
-  object-fit: cover; /* Garante que a imagem cubra o container sem distorção */
-}
-
-.book-cover img {
-  width: auto; /* Ajusta a largura da imagem automaticamente */
-  height: 100%; /* Ajusta a altura da imagem para preencher o container */
-  object-fit: cover; /* Garante que a imagem cubra o container sem distorção */
+  width: auto; 
+  height: 100%;
+  object-fit: cover;
 }
 
 
@@ -185,7 +203,6 @@ main {
   color: #555;
 }
 
-/* Estilização do botão "Reservar" */
 .reserve-btn {
   text-decoration: none;
   color: #ffffff;
@@ -194,14 +211,13 @@ main {
   border: 1px solid #1068c7;
   border-radius: 4px;
   background-color: #0e5fb4;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Animação suave para mudança de cor e tamanho */
-  display: inline-block; /* Necessário para que o transform funcione corretamente */
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  display: inline-block; 
 }
 
-/* Efeito de hover para o botão "Reservar" */
 .reserve-btn:hover {
-  background-color: #094d96; /* Cor de fundo ao passar o mouse */
-  transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+  background-color: #094d96; 
+  transform: scale(1.05); 
 }
 
 footer {
@@ -212,7 +228,6 @@ footer {
 }
 
 
-/* Estilos existentes aqui */
 
 .titlelogin {
   text-align: center;
@@ -230,7 +245,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 300px); /* Ajusta a altura para o centro verticalmente */
+  height: calc(100vh - 300px); 
 }
 
 .login-form {
@@ -291,27 +306,24 @@ footer {
   font-size: 1.2em;
 }
 
-/* Estilização da seção de "Acervo Online" */
 .online-catalog {
-  text-align: center; /* Alinha o conteúdo da seção à direita */
-  margin-top: 29px; /* Espaço superior para separar da seção de livros */
+  text-align: center; 
+  margin-top: 29px;
 }
 
-/* Estilização do link "Acervo Online" */
 .catalog-link {
-  font-family: 'Inter', sans-serif; /* Fonte de acordo com o estilo da página */
-  font-size: 28px; /* Tamanho da fonte */
-  color: #333; /* Cor do texto do link */
-  text-decoration: none; /* Remove o sublinhado do link */
-  font-weight: bold; /* Deixa o texto em negrito */
-  display: inline-block; /* Torna o link um bloco inline para transformações */
-  transition: color 0.3s ease, transform 0.5s ease; /* Animação suave para mudança de cor e tamanho */
+  font-family: 'Inter', sans-serif; 
+  font-size: 28px; 
+  color: #333; 
+  text-decoration: none; 
+  font-weight: bold; 
+  display: inline-block; 
+  transition: color 0.3s ease, transform 0.5s ease; 
 }
 
-/* Efeito de hover para o link */
 .catalog-link:hover {
-  color: #0056b3; /* Cor ao passar o mouse */
-  transform: scale(1.05); /* Aumenta o tamanho do texto em 10% */
+  color: #0056b3; 
+  transform: scale(1.05); 
 }
 
 #book-content {
@@ -330,4 +342,9 @@ footer {
 .book[style*="visibility: hidden"] {
   opacity: 0;
   position: absolute;
+}
+.terms-notice {
+    font-size: 0.8em; /* Ajuste o valor conforme necessário */
+    color: #555; /* Ajuste a cor conforme necessário */
+    margin-top: 10px; /* Ajuste a margem conforme necessário */
 }

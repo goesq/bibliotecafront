@@ -117,3 +117,25 @@ footer {
     color: #f1c40f; /* Cor das estrelas */
     margin-right: 5px;
 }
+.titlebook, .titlebook2 {
+    display: flex;
+    align-items: center;
+    margin-left: 63px;
+  }
+  
+  .home-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; /* Mantém a cor padrão do texto */
+  }
+  
+  .home-link i {
+    font-size: 2rem; /* Ajuste o tamanho do ícone conforme necessário */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+  }
+  
+  .home-link h1 {
+    margin: 0; /* Remove a margem padrão do <h1> */
+    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
