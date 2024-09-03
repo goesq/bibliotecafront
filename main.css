@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 * {
   box-sizing: border-box;
@@ -63,30 +64,54 @@ header {
   margin-left: 2rem; /* Aumenta a margem à esquerda para afastar do canto da tela */
 }
 
+/* Estilização dos botões "Log In" e "Sign Up" */
 .login,
 .signup {
   text-decoration: none;
-  color: #007bff;
+  color: #ffffff;
   font-weight: bold;
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
-  border: 1px solid #007bff;
+  border: 1px solid #094d96;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #1068c7;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animação suave para mudança de cor e tamanho */
 }
 
+/* Efeito de hover para o botão "Log In" */
+.login:hover {
+  background-color: #0e5fb4; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+}
+
+/* Estilização e efeito de hover para o botão "Sign Up" */
 .signup {
-  border-color: #28a745;
-  color: #28a745;
+  border-color: #094d96;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animação suave para mudança de cor e tamanho */
 }
 
+.signup:hover {
+  background-color: #0e5fb4; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+}
+
+
+/* Estilização do título "DESTAQUES DO MÊS" */
 .highlight-title {
   text-align: center;
-  font-family: "Lacquer", system-ui;
-  font-size: 3em;
-  color: rgb(235, 4, 4);
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 3.5em;
+  color: #1068c7;
   margin-top: 60px;
+  border-color: black; /* Note que border-color não afeta o estilo de texto diretamente */
+  transition: transform 0.3s ease; /* Animação suave para inclinação e aumento */
+}
+
+/* Efeito de hover para o título "DESTAQUES DO MÊS" */
+.highlight-title:hover {
+  transform: rotate(-5deg) scale(1.15); /* Inclina o texto para a esquerda em 5 graus e aumenta o tamanho em 10% */
 }
 
 main {
@@ -151,19 +176,23 @@ main {
   color: #555;
 }
 
+/* Estilização do botão "Reservar" */
 .reserve-btn {
-  display: inline-block;
   text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  color: #ffffff;
   font-weight: bold;
-  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #1068c7;
+  border-radius: 4px;
+  background-color: #0e5fb4;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animação suave para mudança de cor e tamanho */
+  display: inline-block; /* Necessário para que o transform funcione corretamente */
 }
 
+/* Efeito de hover para o botão "Reservar" */
 .reserve-btn:hover {
-  background-color: #0056b3;
+  background-color: #094d96; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
 }
 
 footer {
@@ -178,9 +207,9 @@ footer {
 
 .titlelogin {
   text-align: center;
-  font-family: "Lacquer", system-ui;
+  font-family: "Dela Gothic One", sans-serif;
   font-size: 3em;
-  color: red;
+  color: #1068c7;
   margin-top: 60px;
 }
 
@@ -251,4 +280,27 @@ footer {
 .titlebook2 {
   margin-left: 820px;
   font-size: 1.2em;
+}
+
+/* Estilização da seção de "Acervo Online" */
+.online-catalog {
+  text-align: center; /* Alinha o conteúdo da seção à direita */
+  margin-top: 29px; /* Espaço superior para separar da seção de livros */
+}
+
+/* Estilização do link "Acervo Online" */
+.catalog-link {
+  font-family: 'Inter', sans-serif; /* Fonte de acordo com o estilo da página */
+  font-size: 28px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto do link */
+  text-decoration: none; /* Remove o sublinhado do link */
+  font-weight: bold; /* Deixa o texto em negrito */
+  display: inline-block; /* Torna o link um bloco inline para transformações */
+  transition: color 0.3s ease, transform 0.5s ease; /* Animação suave para mudança de cor e tamanho */
+}
+
+/* Efeito de hover para o link */
+.catalog-link:hover {
+  color: #0056b3; /* Cor ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do texto em 10% */
 }
