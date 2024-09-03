@@ -70,28 +70,28 @@ document.addEventListener('DOMContentLoaded', () => {
         "meninomagico": {
             title: "O Menino Mágico",
             author: "Queiroz, Rachel de",
-            description: "O Menino Mágico é uma obra encantadora que narra a história de um jovem com habilidades extraordinárias que transformam a vida de todos ao seu redor.",
+            description: "Daniel era mágico, e aprendeu mágica, assim: de repente. Primeiro, ele percebeu mudanças misteriosas: dormiu em um quarto e acordou em outro... Depois, fez um ovo virar pintinho... e a cama se tornar avião! Daniel se impressionava, mas decidiu não contar seu segredo a ninguém... Quer dizer, falou só para seu primo Jorge, o garoto mais inteligente de todos.  Afinal, eles eram melhores amigos e companheiros de aventuras! “Faz de conta que...” são as poderosas palavras do menino mágico que transformam poesia em realidade e a realidade em poesia. Encantamentos, amizade, família, coragem e uma boa dose de confusão são os ingredientes deste que foi o primeiro livro infantil da grande escritora Rachel de Queiroz, a primeira mulher a entrar na Academia Brasileira de Letras. O menino mágico conta as histórias de Daniel e seu primo Jorge, o garoto mais inteligente de todos, em aventuras pelo Rio de Janeiro.",
             image: "img/meninomagico.png",
             rating: 4.2
         },
         "sitio": {
             title: "O Sítio do Picapau Amarelo",
             author: "Lobato, Monteiro",
-            description: "O Sítio do Picapau Amarelo é um clássico da literatura infantil brasileira que traz as aventuras de crianças em um mundo mágico e cheio de fantasia.",
+            description: "O livro da coleção trenzinho, conta algumas histórias curtas, recomendadas para crianças menores, de um dos maiores escritores da literatura infantil monteiro lobato. Os livros contam histórias clássicas e marcantes do escritor, com tia nastácia, narizinho, emília, pedrinho, visconde e entre outros, contando com dez títulos na coleção.",
             image: "img/sitio.png",
             rating: 4.8
         },
         "sempalavras": {
             title: "Se Você Ficar Sem Palavras",
             author: "Sala, Felicita",
-            description: "Se Você Ficar Sem Palavras é um guia inspirador para aqueles que buscam melhorar suas habilidades de comunicação e expressar-se de forma eficaz.",
+            description: "Pai? Hum? O que acontece se você ficar sem palavras? Você ainda vai ter alguma para me dizer? Não seja boba! Eu NUNCA ficaria sem palavras! Mas e se você FICAR? Nesta criativa história de ninar, um pai busca tranquilizar sua filha, contando até onde ele iria para demonstrar seu amor. Ele a acalma com a resposta perfeita: se ficar sem palavras, ele vai visitar a Fábrica de Palavras dos Elfos para nunca mais ficar sem, é claro! Mesmo que isso signifique ter que enfrentar as florestas mais escuras, escapar de piratas ou até mesmo pilotar um foguete de volta para casa. Não há nada que possa ficar entre pai e filha – e não há palavras suficientes para descrever o quanto ele a ama. Cativante, bem-humorado e genuíno, Se você ficar sem palavras, escrito e ilustrado pela premiada artista Felicita Sala, é um livro amoroso e sensível que conquistará leitores de todas as idades.",
             image: "img/sempalavras.png",
             rating: 4.1
         },
         "oz": {
             title: "O Maravilhoso Mágico de Oz",
             author: "Frank Baum",
-            description: "O Maravilhoso Mágico de Oz é um conto mágico que segue a jornada de Dorothy e seus amigos em busca de um caminho de volta para casa e de um futuro melhor.",
+            description: "Munchkins, Quadlings e pessoas de porcelana são alguns dos moradores desse lugar incrível para onde a pequena Dorothy foi enviada por um ciclone com seu cãozinho Totó. Agora, ela precisa seguir pela estrada de tijolos amarelos até chegar à Cidade de Esmeraldas. Lá vive o poderoso Mágico de Oz, que pode ser capaz de ajudá-la a voltar para casa. E nessa jornada ela encontrará amigos, perigos e muitas aventuras.",
             image: "img/oz.png",
             rating: 4.7
         },
