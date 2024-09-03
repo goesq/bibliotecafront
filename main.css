@@ -114,6 +114,15 @@ header {
   transform: rotate(-5deg) scale(1.15); /* Inclina o texto para a esquerda em 5 graus e aumenta o tamanho em 10% */
 }
 
+.highlight-title1 {
+  text-align: center;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 3.5em;
+  color: #1068c7;
+  margin-top: 60px;
+  border-color: black; /* Note que border-color não afeta o estilo de texto diretamente */
+}
+
 main {
   padding: 1rem;
 }
@@ -197,7 +206,7 @@ main {
 
 footer {
   background-color: #fff;
-  padding: 1rem;
+  padding: 1.5rem;
   border-top: 1px solid #ddd;
   text-align: center;
 }
@@ -303,4 +312,22 @@ footer {
 .catalog-link:hover {
   color: #0056b3; /* Cor ao passar o mouse */
   transform: scale(1.05); /* Aumenta o tamanho do texto em 10% */
+}
+
+#book-content {
+  text-align: center;
+}
+
+#book-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.book {
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.book[style*="visibility: hidden"] {
+  opacity: 0;
+  position: absolute;
 }

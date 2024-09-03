@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-    <title>Detalhes do Livro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Detalhes do Livro | bookcase.com</title>
 </head>
 <body>
     <header>
-        <h1 id="book-title">Título do Livro</h1>
+        <div class="header-container">
+            <div class="titlebook">  
+                <h1>bookcase.com</h1>
+            </div>
+        </div>
+        <h1 class="highlight-title">DETALHES DO LIVRO</h1>
     </header>
 
     <main>
-        <div id="book-content">
-            <!-- O conteúdo do livro será carregado aqui -->
+        <div class="book-container">
+            <div id="book-content">
+                <div class="book-info">
+                    <img id="book-image" src="" alt="Imagem do Livro" class="book-image">
+                    <div class="book-details">
+                        <h2 id="book-title">Título do Livro</h2>
+                        <p id="book-author">Autor</p>
+                        <p id="book-description">Descrição do livro será carregada aqui.</p>
+                        <div class="rating" id="book-rating">
+                            <!-- Estrelas serão adicionadas aqui dinamicamente -->
+                        </div>
+                        <a href="#" class="reserve-btn">Reservar Agora</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
