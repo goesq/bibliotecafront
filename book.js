@@ -1,14 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Função para obter o valor de um parâmetro da URL
+
     function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
     }
 
-    // Obter o parâmetro 'book'
     const bookId = getQueryParam('book');
 
-    // Dados dos livros
     const bookContent = {
         "elon": {
             title: "Elon Musk",
@@ -196,11 +194,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const star = document.createElement('span');
             star.className = 'star';
             if (i < Math.floor(rating)) {
-                star.innerHTML = '★'; // Estrela preenchida
+                star.innerHTML = '★'; 
             } else if (i === Math.floor(rating) && rating % 1 !== 0) {
-                star.innerHTML = '☆'; // Estrela vazia
+                star.innerHTML = '☆'; 
             } else {
-                star.innerHTML = '☆'; // Estrela vazia
+                star.innerHTML = '☆'; 
             }
             ratingContainer.appendChild(star);
         }
