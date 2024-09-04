@@ -29,7 +29,8 @@ header {
     font-size: 3.5em;
     color: #1068c7;
     margin-top: 60px;
-    border-color: black; /* Note que border-color não afeta o estilo de texto diretamente */
+    border-color: black;
+    /* Note que border-color não afeta o estilo de texto diretamente */
 }
 
 .titlebook h1 {
@@ -59,7 +60,8 @@ header {
 }
 
 .book-image {
-    max-width: 250px; /* Aumente o tamanho da imagem */
+    max-width: 250px;
+    /* Aumente o tamanho da imagem */
     height: auto;
     margin-right: 20px;
 }
@@ -113,29 +115,38 @@ footer {
 }
 
 .star {
-    font-size: 1.5rem; /* Tamanho das estrelas */
-    color: #f1c40f; /* Cor das estrelas */
+    font-size: 1.5rem;
+    /* Tamanho das estrelas */
+    color: #f1c40f;
+    /* Cor das estrelas */
     margin-right: 5px;
 }
-.titlebook, .titlebook2 {
+
+.titlebook,
+.titlebook2 {
     display: flex;
     align-items: center;
     margin-left: 63px;
-  }
-  
-  .home-link {
+}
+
+.home-link {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: inherit; /* Mantém a cor padrão do texto */
-  }
-  
-  .home-link i {
-    font-size: 2rem; /* Ajuste o tamanho do ícone conforme necessário */
-    margin-right: 10px; /* Espaço entre o ícone e o texto */
-  }
-  
-  .home-link h1 {
-    margin: 0; /* Remove a margem padrão do <h1> */
-    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
-  }
+    color: inherit;
+    /* Mantém a cor padrão do texto */
+}
+
+.home-link i {
+    font-size: 2rem;
+    /* Ajuste o tamanho do ícone conforme necessário */
+    margin-right: 10px;
+    /* Espaço entre o ícone e o texto */
+}
+
+.home-link h1 {
+    margin: 0;
+    /* Remove a margem padrão do <h1> */
+    font-size: 2rem;
+    /* Ajuste o tamanho da fonte conforme necessário */
+}
