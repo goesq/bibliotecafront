@@ -122,6 +122,62 @@ document.addEventListener('DOMContentLoaded', () => {
             description: "Alice no País das Maravilhas foi publicado em 1965 e é um clássico da literatura nonsense. Além da história da menina entediada que persegue um coelho branco, há várias passagens no livro que abordam física, filosofia e lógica. A continuação dessa história aparece em outra obra do autor, Alice através do espelho..",
             image: "img/alice.png",
             rating: 4.3
+        },
+        "divertidamente": {
+            title: "Divertidamente",
+            author: "Allen, Elise",
+            description: "Como a maioria das pessoas, Riley, de onze anos, é guiada por suas Emoções: Alegria, Nojinho, Medo, Raiva e Tristeza. Tendo Alegria como a Emoção predominante, Riley sempre foi uma menina feliz. Ela adora sua casa em Minnesota, tem um ótimo relacionamento com a mãe e o pai, e vive para jogar hóquei com sua melhor amiga. Mas quando Riley e seus pais atravessam o país e se mudam para São Francisco, seu mundo vira de cabeça para baixo e suas Emoções são abaladas.",
+            image: "img/divertidamente.png",
+            rating: 4.0
+        },
+        "salgueiro": {
+            title: "O Vento nos Salgueiros",
+            author: "Grahame, Kenneth",
+            description: "Descrição do livro 'O Vento nos Salgueiros' ainda não disponível.",
+            image: "img/salgueiro.png",
+            rating: 4.2
+        },
+        "esefosse": {
+            title: "E se Fosse com Você?",
+            author: "Sandra Saurê",
+            description: "Animal e sua turma agridem os colegas do colégio. Eles colocam apelidos horrorosos naqueles que são considerados diferentes. A professora Nancy, no entanto, descobre um modo eficiente de acabar com isso. Além de divertido, este livro é educativo, pois dá orientações de como coibir essa prática, nada agradável, que algumas pessoas têm de depreciar as outras. Vale a pena ler.",
+            image: "img/esefosse.png",
+            rating: 4.3
+        },
+        "homemcao": {
+            title: "O Homem-Cão: O Senhor das Pulgas",
+            author: "Pilkey, Dav",
+            description: "Quando o oficial Rocha e seu cachorro Greg sofreram um acidente, o único jeito de os dois sobreviverem foi fundindo a cabeça do cão ao corpo do policial ― e foi assim que nasceu o Homem-Cão, o maior protetor da cidade! Desde então, nosso herói encontrou vários cãopanheiros: o Chefe, a poodle Zuzu, o robô Formigão e Pepezinho, um adorável gatinho. Quando um novo grupo de caras malvados aparece na cidade, o Homem-Cão entra em ação ― e ele não está sozinho! Ao lado de Pepezinho e do Formigão, nosso Cãovaleiro das Trevas faz parte do grupo Superamigos, heróis sempre prontos para salvar todo mundo da cidade. Desta vez eles vão precisar unir forças a um aliado inesperado: o arqui-inimigo Pepê, o gato mais malvado do mundo. Mas será que ele é tão mau assim? Descubra a origem da vilania de Pepê e se ele finalmente vai deixar a amizade vencer pelo menos uma vez.",
+            image: "img/homemcao.png",
+            rating: 4.1
+        },
+        "darua": {
+            title: "Os Meninos da Rua Paulo",
+            author: "Molnár, Ferenc",
+            description: "Budapeste, 1889. No bairro de Józsefváros, entre uma aula e outra, os meninos da Sociedade do Betume passam seu tempo no grund, um terreno baldio que eles consideram sua pátria. Quando os Camisas Vermelhas, gangue de meninos que se reúne nos jardins próximos, tentam tomar a área, os meninos da rua Paulo são forçados a defender o lugar em que brincam. A história dos meninos que travam batalhas de vida ou morte nas ruas de Budapeste, no final do século XIX, ainda fascina leitores de várias gerações. Ferenc Molnár escreveu sobre amizade, orgulho, coragem, honra, traição e amadurecimento. Ele fala sobre perda, mostra a dificuldade de ser pobre e a inevitabilidade de ser adulto e viver desgostos",
+            image: "img/darua.png",
+            rating: 4.5
+        },
+        "ilha": {
+            title: "A Ilha do Tesouro",
+            author: "Steverson, Robert Louis",
+            description: "A vida de Jim Hawkins nunca mais será a mesma depois de conhecer Billy Jones. O velho lobo do mar possui um mapa que mostra o local onde está escondido um tesouro de pirata. Agora o mapa está com Jim e ele parte em uma expedição sem imaginar o que o aguarda – seja navegando pelo mar ou em terra firme.",
+            image: "img/ilha.png",
+            rating: 4.7
+        },
+        "judite": {
+            title: "Judite",
+            author: "Person, Jussara",
+            description: "Uma cutia esquecida é surpreendida por uma invasão de passarinhos. Qual será a melhor maneira de espantar esses intrusos? Os desastrosos planos de Judite acabam levando-a a um voo inesperado.",
+            image: "img/judite.png",
+            rating: 4.2
+        },
+        "droga": {
+            title: "A Droga da Obediência",
+            author: "Bandeira, Pedro",
+            description: "Uma turma de adolescentes enfrenta o mais diabólico dos crimes! Num clima de muito mistério e suspense, cinco estudantes – os Karas – enfrentam uma macabra trama internacional: o sinistro Doutor Q.I. pretende subjugar a humanidade aos seus desígnios, aplicando na juventude uma perigosa droga! E essa droga já está sendo experimentada em alunos dos melhores colégios de São Paulo. Esse é um trabalho para os Karas: o avesso dos coroas, o contrário dos caretas!",
+            image: "img/droga.png",
+            rating: 4.4
         }
     };
 
@@ -149,6 +205,6 @@ document.addEventListener('DOMContentLoaded', () => {
             ratingContainer.appendChild(star);
         }
     } else {
-        document.getElementById('book-content').innerHTML = "<p>Livro não encontrado.</p>";
+        document.getElementById('book-content').innerHTML = "<p>Pedimos desculpa pelo ocorrido, livro não disponível ou encontrado.</p>";
     }
 });
