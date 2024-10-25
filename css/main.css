@@ -225,6 +225,7 @@ footer {
   padding: 1.5rem;
   border-top: 1px solid #ddd;
   text-align: center;
+  position: relative;
 }
 
 
@@ -347,4 +348,77 @@ footer {
     font-size: 0.8em; /* Ajuste o valor conforme necessário */
     color: #555; /* Ajuste a cor conforme necessário */
     margin-top: 10px; /* Ajuste a margem conforme necessário */
+}
+
+
+.crud-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.crud-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.crud-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.crud-table th, .crud-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.crud-table th {
+  background-color: #1068c7;
+  color: #fff;
+  font-weight: bold;
+}
+
+.create-btn, .edit-btn, .delete-btn {
+  background-color: #1068c7;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover, .edit-btn:hover, .delete-btn:hover {
+  background-color: #094d96;
+}
+
+.form-container {
+  display: none; /* Inicialmente, o formulário não aparece */
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.crud-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.crud-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.crud-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
