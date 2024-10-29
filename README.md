@@ -7,10 +7,10 @@ Autenticação de usuários com acesso a funcionalidades exclusivas
 Reserva e comentários sobre os livros
 
 # Tecnologias Utilizadas
-HTML: Estruturação do conteúdo
-CSS: Estilização e design responsivo
-JavaScript: Interatividade e comunicação com a API
-Fetch API: Para requisições HTTP à API "backendex"
+HTML,
+CSS,
+JavaScript,
+Fetch API: Para requisições HTTP à API "backendex".
 
 ![login](https://github.com/user-attachments/assets/f5165f42-2dc9-47b8-a581-41706dca8d28)
 
