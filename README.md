@@ -1,4 +1,4 @@
-# BibliotecaFront - Bookcase.com
+# BibliotecaFront - bookcase.com
 
 # Funcionalidades
 Navegação intuitiva pelos livros disponíveis
